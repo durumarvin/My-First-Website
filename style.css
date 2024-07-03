@@ -1,0 +1,55 @@
+body {
+    background-image: linear-gradient(rgb(127, 227, 210), rgb(225, 179, 238));
+    padding: 5%;
+    background-repeat: no-repeat;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(17, 97, 163);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    text-decoration: none;
+    padding: 14px 16px;
+    display: block;
+    color: #dddddd;
+}
+
+/* Change color on hover */
+li a:hover {
+    color: rgb(17, 97, 163);
+    background-color: antiquewhite;
+}
+
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(102, 1, 113);
+}
+
+hr {
+    border-color: rgb(67, 137, 236);
+    width: 70%;
+}
+
+img {
+    width: 30%; 
+    margin-left: auto; 
+    margin-right: auto; 
+    display: block;
+}
+
+#Para {
+    padding: 2%;
+    background-color: rgba(255, 140, 0, 0.3);
+    font-size: 18px;
+}
